@@ -1,0 +1,19 @@
+{
+  "name": "pruebagitflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitperalta/pruebagitflow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitperalta/pruebagitflow/issues"
+  },
+  "homepage": "https://github.com/gitperalta/pruebagitflow#readme"
+}
