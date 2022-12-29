@@ -5,7 +5,7 @@ const Button = ({ text, href }: { text: string; href: string }) => (
     </div>
   </a>
 );
-
+// Hola??????
 const HomeSection = () => (
   <div className="p-3 space-y-3">
     <p className="text-lg">¡Elegí una sección!</p>
