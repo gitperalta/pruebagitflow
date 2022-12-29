@@ -24,9 +24,9 @@ const columns = [
     //     : population,
   },
   {
-    title: 'Manufacterer',
-    dataIndex: 'manufacturer',
-    key: 'manufacturer',
+    title: 'consumables',
+    dataIndex: 'consumables',
+    key: 'consumables',
     // render: (residents: string[]) => residents.length,
   },
   {
@@ -37,8 +37,8 @@ const columns = [
   },
 ];
 
-const Starships = () => {
-  const { data, error } = useSWR('/starships', swGet);
+const Vehicles = () => {
+  const { data, error } = useSWR('/vehicles', swGet);
 
   if (error) {
     return <div className="px-2">Oh oh!</div>;
@@ -54,4 +54,4 @@ const Starships = () => {
   );
 };
 
-export default Starships;
+export default Vehicles;
